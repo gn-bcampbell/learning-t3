@@ -11,6 +11,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
   pageProps: { session, ...pageProps },
 }) => {
   return (
+    // https://next-auth.js.org/getting-started/client#sessionprovider
     <SessionProvider session={session}>
       <Component {...pageProps} />
     </SessionProvider>
