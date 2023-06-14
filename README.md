@@ -21,4 +21,4 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 ## Commands
 - **Run Application & Database**: `docker compose up`
 - **Seed Database**: `pnpm db-seed`
-- **Build Production**: `pnpm run build`
+- **Build Production**: `pnpm run build` 
